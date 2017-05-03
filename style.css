@@ -1,7 +1,26 @@
-/* Here goes your CSS */
 body {
   background-color: #EBEBEB;
 }
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+#page-content {
+  margin-left: 300px;
+}
+
+#list-navbar {
+  list-style:none;
+}
+
+#list-navbar li  {
+  padding:20px;
+}
+
 
 h1 {
   color: #E06D55;
@@ -85,3 +104,4 @@ img {
 i {
   font-size:25px !important;
 }
+/* Here goes your CSS */
