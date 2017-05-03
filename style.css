@@ -1,0 +1,87 @@
+/* Here goes your CSS */
+body {
+  background-color: #EBEBEB;
+}
+
+h1 {
+  color: #E06D55;
+}
+
+h1, h2, h3 {
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color:#7D7D7D;
+  cursor: pointer;
+}
+
+a:hover {
+  color:#E06D55;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 16px;
+  color: #7D7D7D;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #7D7D7D;
+}
+/* Here goes your CSS */
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 30 auto;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 1px solid lightgrey;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+img {
+  width:150;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  color:white;
+  background-color: #E06D55;
+  padding:10px 20px;
+  border-radius:4px;
+}
+
+.btn-red:hover {
+  background-color:#ad0a0a;
+}
+.fin {
+  padding-left: 0;
+}
+
+i {
+  font-size:25px !important;
+}
